@@ -1,0 +1,88 @@
+@font-face {
+    font-family: Halloween ;
+    src: url("../font/Gypsy Curse.ttf");
+}
+#fondo{
+    background-image: url("../img/r3.jpg");
+    position: relative;
+    background-repeat: no-repeat;
+    margin: auto;
+    height:800px;
+    width: 1200px;
+}
+body{
+    background-color: black;
+    /* font-family: 'Arbutus', cursive; */
+    font-family: Halloween;
+    font-size: 40px;
+}
+#p1{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+#p2{
+    position: relative;
+    text-align: right;
+    top: 20px;
+    right: 20px;
+    font-size: 60px;
+}
+#ventana{
+    position: absolute;
+    top: 240px;
+    padding: 55px;
+    left: 665px;
+}
+#ventana2{
+    position: absolute;
+    padding: 25px;
+    left: 825px;
+    bottom: 150px;
+}
+#zombie{
+    position: relative;
+    top: 125px;
+    left: 725px;
+    visibility: hidden;
+}
+#p3{
+    position: absolute;
+    top: 500px;
+    left: 20px;
+    font-size: 50px;
+}
+#p4{
+    position: absolute;
+    top: 550px;
+    left: 20px;
+    font-size: 50px;
+}
+#p5{
+    position: absolute;
+    top: 600px;
+    left: 20px;
+    font-size: 50px;
+}
+#gnome{
+    position: relative;
+    left: -200px;
+    top: -175px;
+    visibility: hidden;
+}
+#gifondo{
+    position: absolute;
+    visibility: hidden;
+    width: 1000px;
+    right: 20px;
+    left: 100px;
+    bottom: 25px;
+    top: 25px;
+    height: 750px;
+}
+.cursor {
+    cursor: crosshair;
+}
+.none {
+    cursor: none;
+}

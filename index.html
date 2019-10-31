@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Halloween</title>
+    <link href="css/halloween.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" type="image/png" href="img/calabaza.png"/>
+
+<script src="js/halloween.js"></script>
+</head>
+<body>
+
+    <audio id="gnomete">
+        <source src="sound/gnomete.mp3" type="audio/mpeg">
+    </audio>
+
+    <div id="fondo">
+        <h1 id="p1">Welcome, welcome</h1>
+        <p id="p2" onclick="mostrar('gnome');sonar('gnomete')">Are you ready?</p>
+        <p id="p3">No todo lo que vuela es lo que crees</p>
+        <p id="p4">Para poder entrar tienes que llamar</p>
+        <p id="p5">Seguro que estas listo?</p>
+
+    <div id="ventana" onclick="mostrar('zombie')"></div>
+    <div id="ventana2"onclick="mostrar('gifondo')"></div>
+
+        <img src="img/zombie.gif" id="zombie" width="250" ondblclick="ocultar('zombie')" class="cursor" >
+        <img src="img/gnomete.png" id="gnome" width="250" ondblclick="ocultar('gnome')" class="none">
+        <img src="img/hehehe.gif" id="gifondo" onclick="ocultar('gifondo')">
+    </div>
+
+</body>
+</html>
